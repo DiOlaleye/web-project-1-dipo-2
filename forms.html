@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms page</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home page</a></li>
+          <li><a href="forms.html">Form page</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <br />
+    <br />
+    <!--The Form tag creats a section in the webpage, where the user can
+    input information into the website.-->
+    <form id="contact-sign-up-interests" method="get">
+      <!--The label tag gives the attribute a name, telling the user what the input field is for.-->
+      <label for="name">Name:</label>
+      <!-- The input tag creates a typed input field. Most commonly seen in forms.
+      the id tag is used to identify the input field. -->
+
+      <!--The ID tag is used to identify the input field.-->
+      <!--The input type tag is used to specify the type of input field.-->
+      <input type="text" id="name" name="name" /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br />
+
+      <label for="telephone">Phone Number (ex: 1-555-555-5555)</label>
+      <input type="tel" id="telephone" name="phonenumber" />
+
+      <br /><br />
+      <!-- This input creates a submit button for the form. -->
+      <input type="submit" value="Submit" />
+    </form>
+
+    <label for="nbateams">What's your favorite team?:</label>
+    <!--The select tag creates a dropdown menu for the user to choose from.-->
+    <select name="nbateams" id="nbateams">
+      <!-- The option tag creates a choice in the dropdown menu. -->
+      <option value="lakers">Lakers</option>
+      <option value="warriors">Warriors</option>
+      <option value="celtics">Celtics</option>
+      <option value="thunder">Thunder</option>
+      <option value="Nuggets">Nuggets</option>
+      <option value="Rockets">Rockets</option>
+      <option value="knicks">Knicks</option>
+      <option value="pistons">Pistons</option>
+    </select>
+  </body>
+</html>
